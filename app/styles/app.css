@@ -1,3 +1,51 @@
-html, body {
-  margin: 20px;
+html{
+background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Stitched-Wool-White-Seamless-Textures-For-Website-Background.jpg");
+opacity: 0.5;
+padding: 0 20px 20px 20px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.right{
+font-size: 12pt;
+padding: 0 0 40px 0;
+margin: 0 0 0 50px;
+float: left;
+width: 40%;
+text-align: left;
+height: 608px;
+}
+
+.space{
+width: 100%;
+height: 630px;
+resize: none;
+border: 1px solid lightgrey;
+padding: 0 20px;
+font-size: 13pt;
+background: rgba(255, 255, 255, 0.8);
+}
+
+.left{
+float: left;
+width: 40%;
+text-align: left;
+margin: 0 0 0 0;
+}
+
+textarea{
+padding: 20px;
+font-size: 12pt;
+width: 100%;
+height: 590px;
+resize: none;
+border: 1px solid lightgrey;
+outline: none;
+background: rgba(255, 255, 255, 0.8);
+}
+
+.foot{
+clear: both;
 }

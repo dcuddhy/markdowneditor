@@ -1,3 +1,22 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h2 id='title'>Markdown Editor</h2>
+
+
+
+<div class = "left">
+Markdown
+{{textarea value=markdown}}
+</div>
+
+
+<div class = "right">
+HTML
+<div class = "space">
+{{showdown-addon markdown}}
+</div>
+</div>
+
+<div class = "foot">
+  <br>
+</div>
 
 {{outlet}}
